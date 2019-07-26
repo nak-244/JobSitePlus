@@ -66,6 +66,23 @@ h1.title {
   box-shadow: 0px 0px 0px #EEEEEE;
 }
 
+/* スマホサイズ */
+@media screen and (max-width: 768px) {
+#main-wrap {
+    width: 100%;
+}
+.col-2.left .main, .col-2.right .main {
+    width: 100%;
+}
+.jobs ul li {
+    width: 93%;
+}
+header div#brand {
+    width: 100%;
+}
+}
+
+
 /* slick */
 .center { margin: 0 0 50px;}
 .center img { width: 100%; height: auto;}
@@ -87,20 +104,4 @@ h1.title {
 }
 .slick-current + .slick-slide {
   transform-origin: -10% 50%;
-}
-
-/* スマホサイズ */
-@media screen and (max-width: 768px) {
-#main-wrap {
-    width: 100%;
-}
-.col-2.left .main, .col-2.right .main {
-    width: 100%;
-}
-.jobs ul li {
-    width: 93%;
-}
-header div#brand {
-    width: 100%;
-}
 }
