@@ -20,3 +20,6 @@ textarea {
 header div#brand {
   width: 1200px;
 }
+#search-detail.col-2.right .main {
+    width: 1200px;
+}
