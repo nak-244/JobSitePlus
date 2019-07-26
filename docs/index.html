@@ -23,20 +23,19 @@
 </head>
 
 <body id="top" class="col-2 right">
-  <!-- header -->
+
+<!-- ここから -->
+<div>
   <header>
     <div id="brand">
-      <!-- logo -->
       <h1>オープンループパートナーズ・日払い・未経験歓迎の求人情報【しごとら】</h1>
       <h2>
         <a href="https://sigotora.jp/" title="オープンループパートナーズの求人情報【しごとら】">
           <img src="https://sigotora.jp/img_sys/1/contents/pc1.png" alt="オープンループパートナーズの求人情報【しごとら】" class="logo">
         </a>
       </h2>
-      <!-- //logo -->
     </div>
   </header>
-  <!-- GLOBAL -->
   <nav class="mod_nav">
     <p class="navtitle">
       <img src="https://sigotora.jp/img/common/mb-menu.png" alt="MENU" class="logo">
@@ -58,9 +57,7 @@
         <a href="https://www.s-mypage.com/mypage/login/user_login?cp=openloop">スタッフマイページ </a>
       </li>
   </nav>
-  <!-- // mod_nav -->
-  <!-- mainvisual -->
-  <div id="mainvisual">
+  <!-- <div id="mainvisual">
     <h2>気がつけば、毎日ウキウキしていました。はじまりは、[しごとら]でした。</h2>
     <ul class="bxslider">
       <li>
@@ -74,9 +71,34 @@
         </a>
       </li>
     </ul>
+  </div> -->
+
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick.css"/>
+  <script type="text/javascript" src="https://www.olp.co.jp/another_assets/sigotora_js/slick.min.js"></script>
+  <!-- / slick -->
+  <div class="center">
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg" alt=""></div>
+    <div><img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg" alt=""></div>
   </div>
-  <!-- // mainvisual -->
-  <!-- //header -->
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.center').slick({
+    infinite: true, //スライドのループ有効化
+    dots:true, //ドットのナビゲーションを表示
+    centerMode: true, //要素を中央寄せ
+    centerPadding:'10%', //両サイドの見えている部分のサイズ
+    autoplay:true, //自動再生
+  });
+  });
+  </script>
+
+</div>
+
+<!-- ここまで -->
+
   <div id="main-wrap">
     <div class="main">
       <!--search上-->
