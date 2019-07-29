@@ -119,6 +119,11 @@ span.icon_sub {
 header div#brand {
     width: 100%;
 }
+
+.topsearch table th {
+    color: #333333;
+}
+
 }
 
 /* フッターの色 */
