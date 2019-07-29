@@ -115,6 +115,11 @@ header div#brand {
 }
 }
 
+/* フッターの色 */
+small {
+    color: #FFFFFF;
+    background: #00A0E9;
+}
 
 /* slick */
 .center { margin: 0 0 50px;}
