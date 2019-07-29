@@ -182,8 +182,11 @@ small {
 .col-2.right #side {
     float: right;
     padding: 0px 20px 0px 20px;
-
 }
+.col-2 #side #menu-word h3 {
+    background: url(../img/common/ico_word.png) 15px 4px #F9FAFA no-repeat;
+}
+
 
 .col-2 #side #menu-word {
     box-shadow: 0px 0px 0px #999999;
