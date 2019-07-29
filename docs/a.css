@@ -80,6 +80,14 @@ h1.title {
     background: #00A0E9;
 }
 
+.col-2 #side ul.function li.search a, .col-2 #side ul.function li.regist a {
+    background: #00A0E9;
+    border-top: 0px solid #64B5F6;
+    border-left: 0px solid #64B5F6;
+    border-right: 0px solid #0D47A1;
+    border-bottom: 0px solid #0D47A1;
+}
+
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
 #main-wrap {
