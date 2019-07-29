@@ -76,6 +76,9 @@ h1.title {
     background: #00A0E9;
 }
 
+.jobs span.go-detail {
+    background: #00A0E9;
+}
 
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
