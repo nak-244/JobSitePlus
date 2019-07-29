@@ -73,89 +73,159 @@ h1.title {
 
 /* ボタン関係 */
 .topsearch .bt_search input {
-    box-shadow: 0px 0px 0px #999999;
-    background: url(https://sigotora.jp/img/common/ico_search_wh.png) #00A0E9 18px 8px no-repeat;
+  box-shadow: 0px 0px 0px #999999;
+  background: url(https://sigotora.jp/img/common/ico_search_wh.png) #00A0E9 18px 8px no-repeat;
 }
 
 #petit div p.link a {
-    background: #00A0E9;
+  background: #00A0E9;
 }
 
 .jobs span.go-detail {
-    background: #00A0E9;
+  background: #00A0E9;
 }
 
 .col-2 #side ul.function li.search a, .col-2 #side ul.function li.regist a {
-    background: #00A0E9;
-    border-top: 0px solid ;
-    border-left: 0px solid ;
-    border-right: 0px solid ;
-    border-bottom: 0px solid ;
+  background: #00A0E9;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 0px solid;
 }
 
 /* テキストの色 */
 span.icon_sub {
-    color: #FFFFFF;
-    background: #E8002B;
+  color: #FFFFFF;
+  background: #E8002B;
 }
 
 /* テーブル調整 */
 .topsearch table th {
-    background: #F7F7F7;
-    border-bottom: 1px solid #CCCCCC;
+  background: #F7F7F7;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* チェックボックスのcss */
+.buttonCheck input[type=checkbox]:checked + label {
+    border: 1px solid #00A0E9;
+    background: #00AEFF;
+    color: #FFFFFF;
 }
 
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
-#main-wrap {
+  #main-wrap {
     width: 100%;
-}
-.col-2.left .main, .col-2.right .main {
+  }
+
+  .col-2.left .main, .col-2.right .main {
     width: 100%;
-}
-.jobs ul li {
+  }
+
+  .jobs ul li {
     width: 93%;
-}
-header div#brand {
+  }
+
+  header div#brand {
     width: 100%;
-}
+  }
 
-.topsearch table th {
+  .topsearch table th {
     color: #333333;
-}
-
+  }
 }
 
 /* フッターの色 */
 small {
-    color: #FFFFFF;
-    background: #00A0E9;
+  color: #FFFFFF;
+  background: #00A0E9;
 }
 
 /* ページトップへボタン */
 #page-top a {
-    color: #FFFFFF;
-    background: #E8002B;
+  color: #FFFFFF;
+  background: #E8002B;
 }
 
 /* 仕事検索へ行く　TOPに戻るボタン */
 .link-bottun a {
-    border: solid 1px #888;
-    display: inline-block;
-    border-radius: 10px;
-    border-bottom: solid 1px #888!important;
-    background-color: #E8002B!important;
-    color: #ffffff!important;
-    padding: 5px 10px;
-    margin: 0 5px;
-    width: 35%;
+  border: solid 1px #888;
+  display: inline-block;
+  border-radius: 10px;
+  border-bottom: solid 1px #888 !important;
+  background-color: #E8002B !important;
+  color: #ffffff !important;
+  padding: 5px 10px;
+  margin: 0 5px;
+  width: 35%;
+}
+
+/* サイドバー */
+#side {
+  background: none;
+}
+
+.col-2.right #side {
+  float: right;
+  padding: 0px 20px 0px 20px;
+}
+
+.col-2 #side #menu-word h3 {
+  background: url(../img/common/ico_word.png) 15px 4px #F7F7F7 no-repeat;
+  color: #333333;
+}
+
+.col-2 #side #menu-word {
+  box-shadow: 0px 0px 0px #999999;
+  border-radius: 0px;
+  border: 1px solid #E0E0E0;
+}
+
+.col-2 #side #menu-history h3 {
+  background: url(../img/common/ico_history.png) 10px 4px #F7F7F7 no-repeat;
+  color: #333333;
+}
+
+.col-2 #side #menu-history {
+  box-shadow: 0px 0px 0px #999999;
+  border-radius: 0px;
+  border: 1px solid #E0E0E0;
+}
+
+.col-2 #side #menu-quick h3 {
+  background: url(../img/common/ico_quick.png) 10px 4px #F7F7F7 no-repeat;
+  color: #333333;
+}
+
+.col-2 #side #menu-quick {
+  box-shadow: 0px 0px 0px #999999;
+  border-radius: 0px;
+  border: 1px solid #E0E0E0;
+}
+
+.col-2 #side ul.contents li a, .col-2 #side ul.office li a {
+  border: 1px solid #E0E0E0;
 }
 
 /* slick */
-.center { margin: 0 0 50px;}
-.center img { width: 100%; height: auto;}
-.center .slick-next { right: 20px; z-index: 99;}
-.center .slick-prev { left: 15px; z-index: 100;}
+.center {
+  margin: 0 0 50px;
+}
+
+.center img {
+  width: 100%;
+  height: auto;
+}
+
+.center .slick-next {
+  right: 20px;
+  z-index: 99;
+}
+
+.center .slick-prev {
+  left: 15px;
+  z-index: 100;
+}
 
 .slick-slide {
   transition: .3s ease;
@@ -163,6 +233,7 @@ small {
   transform-origin: 110% 50%;
   filter: blur(7px);
 }
+
 .slick-current {
   position: relative;
   z-index: 2;
@@ -170,52 +241,7 @@ small {
   transform-origin: 50% 50%;
   filter: blur(0);
 }
-.slick-current + .slick-slide {
+
+.slick-current+.slick-slide {
   transform-origin: -10% 50%;
-}
-
-/* サイドバー */
-#side {
-    background: none;
-}
-
-.col-2.right #side {
-    float: right;
-    padding: 0px 20px 0px 20px;
-}
-.col-2 #side #menu-word h3 {
-    background: url(../img/common/ico_word.png) 15px 4px #F7F7F7 no-repeat;
-    color: #333333;
-}
-
-.col-2 #side #menu-word {
-    box-shadow: 0px 0px 0px #999999;
-    border-radius: 0px;
-    border: 1px solid #E0E0E0;
-}
-
-.col-2 #side #menu-history h3 {
-    background: url(../img/common/ico_history.png) 10px 4px #F7F7F7 no-repeat;
-    color: #333333;
-}
-
-.col-2 #side #menu-history {
-    box-shadow: 0px 0px 0px #999999;
-    border-radius: 0px;
-    border: 1px solid #E0E0E0;
-}
-
-.col-2 #side #menu-quick h3 {
-    background: url(../img/common/ico_quick.png) 10px 4px #F7F7F7 no-repeat;
-    color: #333333;
-}
-
-.col-2 #side #menu-quick {
-    box-shadow: 0px 0px 0px #999999;
-    border-radius: 0px;
-    border: 1px solid #E0E0E0;
-}
-
-.col-2 #side ul.contents li a, .col-2 #side ul.office li a {
-    border: 1px solid #E0E0E0;
 }
