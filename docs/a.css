@@ -65,11 +65,13 @@ h1.title {
   width: 100%;
 }
 
-/* ボタン関係 */
 .topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2 {
   box-shadow: 0px 0px 0px #EEEEEE;
+  color: #00A0E9;
+  background: #ECEFF1;
 }
 
+/* ボタン関係 */
 .topsearch .bt_search input {
     box-shadow: 0px 0px 0px #999999;
     background: url(https://sigotora.jp/img/common/ico_search_wh.png) #00A0E9 18px 8px no-repeat;
@@ -92,10 +94,7 @@ h1.title {
 }
 
 /* テキストの色 */
-.topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2 {
-    color: #00A0E9;
-    background: #ECEFF1;
-}
+
 
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
