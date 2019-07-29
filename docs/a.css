@@ -205,6 +205,11 @@ small {
     border: 1px solid #E0E0E0;
 }
 
+.col-2 #side #menu-quick h3 {
+    background: url(../img/common/ico_quick.png) 10px 4px #F7F7F7 no-repeat;
+    color: #333333;
+}
+
 .col-2 #side #menu-quick {
     box-shadow: 0px 0px 0px #999999;
     border-radius: 0px;
