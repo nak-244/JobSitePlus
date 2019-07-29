@@ -171,7 +171,7 @@ small {
 }
 
 .col-2 #side #menu-word h3 {
-  background: url(https://sigotora.jp/img/common/ico_word.png) 10px 4px #F7F7F7 no-repeat;
+  background: url(https://sigotora.jp/img_sys/1/ffls/ico_word.png) 10px 4px #F7F7F7 no-repeat;
   /* 32-30 */
   color: #333333;
 }
@@ -183,7 +183,7 @@ small {
 }
 
 .col-2 #side #menu-history h3 {
-  background: url(https://sigotora.jp/img/common/ico_history.png) 10px 4px #F7F7F7 no-repeat;
+  background: url(https://sigotora.jp/img_sys/1/ffls/clock.png) 10px 4px #F7F7F7 no-repeat;
   color: #333333;
 }
 
@@ -194,7 +194,7 @@ small {
 }
 
 .col-2 #side #menu-quick h3 {
-  background: url(https://sigotora.jp/img/common/ico_history.png) 10px 4px #F7F7F7 no-repeat;
+  background: url(https://sigotora.jp/img_sys/1/ffls/search.png) 10px 4px #F7F7F7 no-repeat;
   color: #333333;
 }
 
