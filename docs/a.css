@@ -190,10 +190,6 @@ small {
     border-radius: 0px;
     border: 1px solid #E0E0E0;
 }
-.col-2 #side #menu-word h3 {
-    background: url(../img/common/ico_word.png) 15px 4px #666666 no-repeat;
-    /* 32 × 30 px */
-}
 
 .col-2 #side #menu-history {
     box-shadow: 0px 0px 0px #999999;
