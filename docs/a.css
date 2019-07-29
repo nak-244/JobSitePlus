@@ -94,7 +94,10 @@ h1.title {
 }
 
 /* テキストの色 */
-
+span.icon_sub {
+    color: #FFFFFF;
+    background: #E8002B;
+}
 
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
