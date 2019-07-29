@@ -99,6 +99,12 @@ span.icon_sub {
     background: #E8002B;
 }
 
+/* テーブル調整 */
+.topsearch table th {
+    background: #F9FAFA;
+    border-bottom: 1px solid #CCCCCC;
+}
+
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
 #main-wrap {
@@ -121,7 +127,7 @@ small {
     background: #00A0E9;
 }
 
-/* ページトップ */
+/* ページトップへボタン */
 #page-top a {
     color: #FFFFFF;
     background: #E8002B;
