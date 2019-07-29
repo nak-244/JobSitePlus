@@ -121,6 +121,12 @@ small {
     background: #00A0E9;
 }
 
+/* ページトップ */
+#page-top a {
+    color: #FFFFFF;
+    background: #00A0E9;
+}
+
 /* slick */
 .center { margin: 0 0 50px;}
 .center img { width: 100%; height: auto;}
