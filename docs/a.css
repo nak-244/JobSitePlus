@@ -68,7 +68,7 @@ h1.title {
 .topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2 {
   box-shadow: 0px 0px 0px #EEEEEE;
   color: #00A0E9;
-  background: #f9fafa;
+  background: #F7F7F7;
 }
 
 /* ボタン関係 */
@@ -188,11 +188,15 @@ small {
     color: #333333;
 }
 
-
 .col-2 #side #menu-word {
     box-shadow: 0px 0px 0px #999999;
     border-radius: 0px;
     border: 1px solid #E0E0E0;
+}
+
+.col-2 #side #menu-history h3 {
+    background: url(../img/common/ico_history.png) 10px 4px #F7F7F7 no-repeat;
+    color: #333333;
 }
 
 .col-2 #side #menu-history {
