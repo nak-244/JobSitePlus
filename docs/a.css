@@ -143,8 +143,9 @@ small {
     border: solid 1px #888;
     display: inline-block;
     border-radius: 10px;
-    border-bottom: none;
-    background-color: #E8002B;
+    border-bottom: solid 1px #888!important;
+    background-color: #E8002B!important;
+    color: #ffffff!important;
     padding: 5px 10px;
     margin: 0 5px;
     width: 35%;
@@ -173,4 +174,39 @@ small {
   transform-origin: -10% 50%;
 }
 
-/*ハンバーガーメニューアイコン*/
+/* サイドバー */
+#side {
+    background: none;
+}
+
+.col-2.right #side {
+    float: right;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.col-2 #side #menu-word {
+    box-shadow: 0px 0px 0px #999999;
+    border-radius: 0px;
+    border: 1px solid #E0E0E0;
+}
+.col-2 #side #menu-word h3 {
+    background: url(../img/common/ico_word.png) 15px 4px #666666 no-repeat;
+    /* 32 × 30 px */
+}
+
+.col-2 #side #menu-history {
+    box-shadow: 0px 0px 0px #999999;
+    border-radius: 0px;
+    border: 1px solid #E0E0E0;
+}
+
+.col-2 #side #menu-quick {
+    box-shadow: 0px 0px 0px #999999;
+    border-radius: 0px;
+    border: 1px solid #E0E0E0;
+}
+
+.col-2 #side ul.contents li a, .col-2 #side ul.office li a {
+    border: 1px solid #E0E0E0;
+}
