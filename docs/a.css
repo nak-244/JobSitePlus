@@ -91,6 +91,12 @@ h1.title {
     border-bottom: 0px solid ;
 }
 
+/* テキストの色 */
+.topsearch h2, .jobs h2, .checkjob h2, #news h2, #petit h2, #osusume h2 {
+    color: #00A0E9;
+    background: #ECEFF1;
+}
+
 /* スマホサイズ */
 @media screen and (max-width: 768px) {
 #main-wrap {
