@@ -139,16 +139,7 @@ small {
 }
 
 /* 仕事検索へ行く　TOPに戻るボタン */
-.link-bottun a {
-    border: solid 1px #888;
-    display: inline-block;
-    border-radius: 10px;
-    border-bottom: none;
-    background-color: #E8002B;
-    padding: 5px 10px;
-    margin: 0 5px;
-    width: 35%;
-}
+
 
 /* slick */
 .center { margin: 0 0 50px;}
