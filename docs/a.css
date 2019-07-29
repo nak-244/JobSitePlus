@@ -3,6 +3,7 @@
 html,
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  border-top: 5px solid #00A0E9;
 }
 
 input,
