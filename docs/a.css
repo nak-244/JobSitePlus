@@ -101,7 +101,7 @@ span.icon_sub {
 
 /* テーブル調整 */
 .topsearch table th {
-    background: #F9FAFA;
+    background: #F7F7F7;
     border-bottom: 1px solid #CCCCCC;
 }
 
@@ -184,7 +184,7 @@ small {
     padding: 0px 20px 0px 20px;
 }
 .col-2 #side #menu-word h3 {
-    background: url(../img/common/ico_word.png) 15px 4px #F9FAFA no-repeat;
+    background: url(../img/common/ico_word.png) 15px 4px #F7F7F7 no-repeat;
     color: #333333;
 }
 
