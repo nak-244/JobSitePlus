@@ -16,27 +16,28 @@
   <link rel="canonical" href="https://sigotora.jp/">
   <link rel="icon" href="https://sigotora.jp/img_sys/1/ffls/favicon.png">
 
-<style type="text/css">
-  @import url('a.css');
-</style>
+  <style type="text/css">
+    @import url('a.css');
+    @import url('navi.css');
+  </style>
 
 </head>
 
 <body id="top" class="col-2 right">
 
-<!-- ここから 管理画面のヘッダー部分 -->
-<div>
-  <header>
-    <div id="brand">
-      <h1>オープンループパートナーズ・日払い・未経験歓迎の求人情報【しごとら】</h1>
-      <h2>
-        <a href="https://sigotora.jp/" title="オープンループパートナーズの求人情報【しごとら】">
-          <img src="https://sigotora.jp/img_sys/1/contents/pc1.png" alt="オープンループパートナーズの求人情報【しごとら】" class="logo">
-        </a>
-      </h2>
-    </div>
-  </header>
-  <!--
+  <!-- ここから 管理画面のヘッダー部分 -->
+  <div>
+    <header>
+      <div id="brand">
+        <h1>オープンループパートナーズ・日払い・未経験歓迎の求人情報【しごとら】</h1>
+        <h2>
+          <a href="https://sigotora.jp/" title="オープンループパートナーズの求人情報【しごとら】">
+            <img src="https://sigotora.jp/img_sys/1/contents/pc1.png" alt="オープンループパートナーズの求人情報【しごとら】" class="logo">
+          </a>
+        </h2>
+      </div>
+    </header>
+    <!--
   <nav class="mod_nav">
     <p class="navtitle">
       <img src="https://sigotora.jp/img/common/mb-menu.png" alt="MENU" class="logo">
@@ -74,33 +75,54 @@
     </ul>
   </div> -->
 
-  <!-- slick -->
-  <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick.css"/>
-  <script type="text/javascript" src="https://www.olp.co.jp/another_assets/sigotora_js/slick.min.js"></script>
-  <!-- / slick -->
-  <div class="center">
-    <div><img src="https://sigotora.jp/img_sys/1/mainimg/516ED734A5811F7D4E759D6E76901EBC4600790C.jpg" alt=""></div>
-    <div><a href="https://www.olp.co.jp/lp/2019sapporo0830/" target="_blank"><img src="https://sigotora.jp/img_sys/1/mainimg/95E24E60F289690EEA7BCE9C9A87287F09787258.png" alt=""></a></div>
-    <div><img src="https://sigotora.jp/img_sys/1/mainimg/516ED734A5811F7D4E759D6E76901EBC4600790C.jpg" alt=""></div>
-    <div><a href="https://www.olp.co.jp/lp/2019sapporo0830/" target="_blank"><img src="https://sigotora.jp/img_sys/1/mainimg/95E24E60F289690EEA7BCE9C9A87287F09787258.png" alt=""></a></div>
+    <!-- navi -->
+    <script type="text/javascript" src="https://www.olp.co.jp/another_assets/sigotora_js/jquery.fatNav.min.js"></script>
+    <script>
+      $(function() {
+        $.fatNav();
+      });
+    </script>
+    <div class="fat-nav ">
+      <div class="fat-nav__wrapper">
+        <ul>
+          <li><a href="#">TOPページ</a></li>
+          <li><a href="#">お仕事を探す</a></li>
+          <li><a href="#">支店一覧</a></li>
+          <li><a href="#">仕事一覧</a></li>
+          <li><a href="#">スタッフマイページ</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /navi -->
+
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.olp.co.jp/another_assets/sigotora_js/slick.css" />
+    <script type="text/javascript" src="https://www.olp.co.jp/another_assets/sigotora_js/slick.min.js"></script>
+    <!-- / slick -->
+    <div class="center">
+      <div><img src="https://sigotora.jp/img_sys/1/mainimg/516ED734A5811F7D4E759D6E76901EBC4600790C.jpg" alt=""></div>
+      <div><a href="https://www.olp.co.jp/lp/2019sapporo0830/" target="_blank"><img src="https://sigotora.jp/img_sys/1/mainimg/95E24E60F289690EEA7BCE9C9A87287F09787258.png" alt=""></a></div>
+      <div><img src="https://sigotora.jp/img_sys/1/mainimg/516ED734A5811F7D4E759D6E76901EBC4600790C.jpg" alt=""></div>
+      <div><a href="https://www.olp.co.jp/lp/2019sapporo0830/" target="_blank"><img src="https://sigotora.jp/img_sys/1/mainimg/95E24E60F289690EEA7BCE9C9A87287F09787258.png" alt=""></a></div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.center').slick({
+          infinite: true, //スライドのループ有効化
+          dots: true, //ドットのナビゲーションを表示
+          centerMode: true, //要素を中央寄せ
+          centerPadding: '5%', //両サイドの見えている部分のサイズ
+          autoplay: true, //自動再生
+          arrows: false,
+        });
+      });
+    </script>
+
   </div>
-  <script type="text/javascript">
-  $(document).ready(function(){
-    $('.center').slick({
-    infinite: true, //スライドのループ有効化
-    dots:true, //ドットのナビゲーションを表示
-    centerMode: true, //要素を中央寄せ
-    centerPadding:'5%', //両サイドの見えている部分のサイズ
-    autoplay:true, //自動再生
-    arrows:false,
-  });
-  });
-  </script>
 
-</div>
-
-<!-- ここまで -->
+  <!-- ここまで -->
 
   <div id="main-wrap">
     <div class="main">
@@ -477,7 +499,7 @@
     <div id="side">
       <ul class="function">
         <li class="search">
-          <a href="https://sigotora.jp/index.cfm?fuseaction=job.srchform" >仕事検索</a>
+          <a href="https://sigotora.jp/index.cfm?fuseaction=job.srchform">仕事検索</a>
         </li>
       </ul>
       <div id="menu-word">
@@ -981,9 +1003,12 @@
   <div id="srch-similar-jobs"></div>
   <div class="introduction">
 
-		<h3>[しごとら]について</h3>
-		<p>オープンループパートナーズの仕事情報サイト[しごとら]は、全国各地の勤務地、職種、働き方から検索できる仕事情報一覧から、人気の「日払い短期のお仕事」「未経験歓迎のお仕事」などたくさんの派遣バイト情報を毎日更新しています。さらに長期、レギュラー、高時給のお仕事でも、お給料は「日払い」「週払い」「月払い」から選べるのが特徴です。オープンループパートナーズに派遣登録していない方も、気になるお仕事が見つかったら是非ご応募ください。また、派遣バイト以外にも、転職支援サービスや正社員のお仕事をお探しなら<span>転職支援サービス<a href="https://www.olp.co.jp/agent/" style='color:#0000EE;text-decoration:underline;'>[オープンループパートナーズ]の転職サイト|[cat]</a></span>介護施設、クリニックなど資格を活かすお仕事をお探しなら<span>メディカル系求人情報<a href="https://www.olp.co.jp/medical/" style='color:#0000EE;text-decoration:underline;'>[メディカルジョブモール]看護師|介護士｜の求人情報サイト</a></span>もよろしければご覧ください。</p>
-	</div>
+    <h3>[しごとら]について</h3>
+    <p>
+      オープンループパートナーズの仕事情報サイト[しごとら]は、全国各地の勤務地、職種、働き方から検索できる仕事情報一覧から、人気の「日払い短期のお仕事」「未経験歓迎のお仕事」などたくさんの派遣バイト情報を毎日更新しています。さらに長期、レギュラー、高時給のお仕事でも、お給料は「日払い」「週払い」「月払い」から選べるのが特徴です。オープンループパートナーズに派遣登録していない方も、気になるお仕事が見つかったら是非ご応募ください。また、派遣バイト以外にも、転職支援サービスや正社員のお仕事をお探しなら<span>転職支援サービス<a
+          href="https://www.olp.co.jp/agent/" style='color:#0000EE;text-decoration:underline;'>[オープンループパートナーズ]の転職サイト|[cat]</a></span>介護施設、クリニックなど資格を活かすお仕事をお探しなら<span>メディカル系求人情報<a href="https://www.olp.co.jp/medical/"
+          style='color:#0000EE;text-decoration:underline;'>[メディカルジョブモール]看護師|介護士｜の求人情報サイト</a></span>もよろしければご覧ください。</p>
+  </div>
   <div class="introduction">
     <p>エリア：
       <a href="https://sigotora.jp/index.cfm?fuseaction=job.joblist&srh_area_param=1">北海道 </a>
