@@ -255,12 +255,6 @@ small {
 .mod_nav {
     background: #00A0E9;
 }
-.mod_nav ul {
-    width: 1200px;
-}
-.mod_nav ul a {
-    width: 218px;
-}
 
 nav {
   transition: .3s;
