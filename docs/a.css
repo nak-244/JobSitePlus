@@ -101,7 +101,7 @@ span.icon_sub {
 
 /* テーブル調整 */
 .topsearch table th {
-  background: #F7F7F7;
+  background: #E7EBF2;
   border-bottom: 1px solid #CCCCCC;
 }
 
@@ -262,4 +262,18 @@ small {
 }
 .mod_nav ul a {
     width: 218px;
+}
+
+nav {
+  transition: .3s;
+}
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+.is-hide {
+  transform: translateY(-100%);
 }
